@@ -25,7 +25,9 @@ class ArticlePostController extends Controller
 
     public function store(ArticlePostRequest $request): JsonResponse
     {
-        $articlePost = $this->articlePostService->createArticlePost($request->validated());
+        $data = $request->validated();
+        $data['user_id'] = auth()->id();
+        $articlePost = $this->articlePostService->createArticlePost($data);
         return response()->json(new ArticlePostResource($articlePost), 201);
     }
 

@@ -1,6 +1,6 @@
 # Laravel ArticlePost API
 
-This is a sample code from one of my projects, which implements an RESTful API for a mobile application designed to create, read, update, and delete article posts.
+This is a sample code from one of my projects, which implements an RESTful API for a mobile application designed to create, read, update, and delete article posts with user authentication.
 This is a Laravel project demonstrating the implementation of the `ArticlePost` feature using SOLID principles.
 
 ## Features
