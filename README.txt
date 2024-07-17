@@ -1,6 +1,7 @@
 # Laravel ArticlePost API
 
-This is a Laravel project demonstrating the implementation of the `ArticlePost` feature using SOLID principles. The project includes a RESTful API for creating, reading, updating, and deleting article posts.
+This is a sample code from one of my projects, which implements an RESTful API for a mobile application designed to create, read, update, and delete article posts.
+This is a Laravel project demonstrating the implementation of the `ArticlePost` feature using SOLID principles.
 
 ## Features
 
@@ -46,10 +47,10 @@ The controller depends on an abstraction (ArticlePostServiceInterface) rather th
     URL: /api/article-posts
     Method: POST
     Request: json
-        {
-            "title": "New ArticlePost",
-            "content": "This is the content of the new article post."
-        }
+    {
+        "title": "New ArticlePost",
+        "content": "This is the content of the new article post."
+    }
     
     Response: json
     {
